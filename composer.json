@@ -1,0 +1,25 @@
+{
+    "name": "wirexmedia-php/http-controller",
+    "description": "A simple HTTP Controller. This library is part of the WirexMedia PHP API.",
+    "type": "php-library",
+    "license": "The MIT License (MIT)",
+    "authors": [
+        {
+            "name": "Gonzalo Chumillas",
+            "email": "gchumillas@email.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.5.0",
+        "wirexmedia-php/common": "dev-master",
+        "wirexmedia-php/array": "dev-master",
+        "wirexmedia-php/event": "dev-master",
+        "wirexmedia-php/http": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "wirexmedia\\common\\": "src/"
+        }
+    }
+}
