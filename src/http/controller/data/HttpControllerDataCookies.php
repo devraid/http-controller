@@ -3,7 +3,7 @@
  * This file is part of WirexMedia common library.
  *
  * @author  Gonzalo Chumillas <gchumillas@email.com>
- * @license https://github.com/wirexmedia-php/http-controller/blob/master/LICENSE BSD 2-Clause License
+ * @license https://github.com/wirexmedia-php/http-controller/blob/master/LICENSE The MIT License (MIT)
  * @link    https://github.com/wirexmedia-php/http-controller
  */
 namespace wirexmedia\common\http\controller\data;
@@ -14,7 +14,7 @@ use wirexmedia\common\arr\ArrHelper;
  *
  * @package Event
  * @author  Gonzalo Chumillas <gchumillas@email.com>
- * @license https://github.com/wirexmedia-php/http-controller/blob/master/LICENSE BSD 2-Clause License
+ * @license https://github.com/wirexmedia-php/http-controller/blob/master/LICENSE The MIT License (MIT)
  * @link    https://github.com/wirexmedia-php/http-controller
  */
 class HttpControllerDataCookies
