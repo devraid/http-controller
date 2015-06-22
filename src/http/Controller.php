@@ -6,7 +6,7 @@
  * @license https://github.com/wirexmedia-php/http-controller/blob/master/LICENSE The MIT License (MIT)
  * @link    https://github.com/wirexmedia-php/http-controllers
  */
-namespace wirexmedia\common\http\controller;
+namespace wirexmedia\common\http;
 use \Exception;
 use wirexmedia\common\event\EventDispatcher;
 use wirexmedia\common\event\EventListener;
@@ -17,14 +17,14 @@ use wirexmedia\common\http\controller\data\HttpControllerDataSession;
 use wirexmedia\common\http\controller\data\HttpControllerDataCookies;
 
 /**
- * Class HttpController.
+ * Class Controller.
  *
  * @package Http\Controller
  * @author  Gonzalo Chumillas <gchumillas@email.com>
  * @license https://github.com/wirexmedia-php/http-controller/blob/master/LICENSE The MIT License (MIT)
  * @link    https://github.com/wirexmedia-php/http-controller
  */
-class HttpController extends EventDispatcher
+class Controller extends EventDispatcher
 {
     /**
      * Error dispatcher.
@@ -70,7 +70,7 @@ class HttpController extends EventDispatcher
      * @param Callable $listener       Listener function
      * @param boolean  $isHighPriority Is high priority? (default is false)
      *
-     * @return HttpController
+     * @return Controller
      */
     public function onError($className, $listener, $isHighPriority = false)
     {
@@ -84,7 +84,7 @@ class HttpController extends EventDispatcher
     /**
      * Stops error propagation.
      *
-     * @return HttpController
+     * @return Controller
      */
     public function stopErrorPropagation()
     {
@@ -100,7 +100,7 @@ class HttpController extends EventDispatcher
      * @param Callable $listener       Listener function
      * @param boolean  $isHighPriority Is high priority (default is false)
      *
-     * @return HttpController
+     * @return Controller
      */
     public function on($type, $listener, $isHighPriority = false)
     {
@@ -120,7 +120,7 @@ class HttpController extends EventDispatcher
      * @param Callable $listener       Listener function
      * @param boolean  $isHighPriority Process the event at first place
      *
-     * @return HttpController
+     * @return Controller
      */
     public function one($type, $listener, $isHighPriority = false)
     {
@@ -135,7 +135,7 @@ class HttpController extends EventDispatcher
     /**
      * Processes HTTP request.
      *
-     * @return HttpController
+     * @return Controller
      */
     public function done()
     {
