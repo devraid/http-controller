@@ -6,9 +6,9 @@
  * @license https://github.com/wirexmedia-php/http-controller/blob/master/LICENSE The MIT License (MIT)
  * @link    https://github.com/wirexmedia-php/http-controller
  */
-namespace wirexmedia\common\http\controller\data;
-use wirexmedia\common\arr\ArrHelper;
-use wirexmedia\common\http\exception\HttpException;
+namespace wirexmedia\http\controller\data;
+use wirexmedia\arr\ArrHelper;
+use wirexmedia\http\exception\HttpException;
 
 /**
  * Class HttpControllerDataSession

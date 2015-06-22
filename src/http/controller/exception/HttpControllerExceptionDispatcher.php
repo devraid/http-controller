@@ -6,9 +6,9 @@
  * @license https://github.com/wirexmedia-php/http-controller/blob/master/LICENSE The MIT License (MIT)
  * @link    https://github.com/wirexmedia-php/http-controller
  */
-namespace wirexmedia\common\http\controller\exception;
+namespace wirexmedia\http\controller\exception;
 use \Exception;
-use wirexmedia\common\event\EventDispatcher;
+use wirexmedia\event\EventDispatcher;
 
 /**
  * Class HttpControllerExceptionDispatcher.

@@ -6,8 +6,8 @@
  * @license https://github.com/wirexmedia-php/http-controller/blob/master/LICENSE The MIT License (MIT)
  * @link    https://github.com/wirexmedia-php/http-controller
  */
-namespace wirexmedia\common\http\controller\data;
-use wirexmedia\common\arr\ArrHelper;
+namespace wirexmedia\http\controller\data;
+use wirexmedia\arr\ArrHelper;
 
 /**
  * Class HttpControllerDataCookies.

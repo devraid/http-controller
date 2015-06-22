@@ -19,7 +19,7 @@
     },
     "autoload": {
         "psr-4": {
-            "wirexmedia\\common\\": "src/"
+            "wirexmedia\\": "src/"
         }
     }
 }
